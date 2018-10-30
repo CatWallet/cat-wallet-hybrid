@@ -3,8 +3,10 @@ import {Text, View, ScrollView} from 'react-native';
 
 export default class SendScreen extends React.Component {
     static navigationOptions = {
-        tabBarLabel: 'Send'
+        tabBarLabel: 'Send',
+        title: 'Send',
     }
+    
     render() {
         return (
           <ScrollView>

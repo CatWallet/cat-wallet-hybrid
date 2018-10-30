@@ -3,7 +3,8 @@ import {Text,  View, ScrollView} from 'react-native';
 
 export default class SettingsScreen extends React.Component {
     static navigationOptions = {
-        tabBarLabel: 'Settings'
+        tabBarLabel: 'Settings',
+        title: 'Settings',
     }
     render() {
         return (
